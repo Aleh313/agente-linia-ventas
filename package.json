@@ -1,0 +1,11 @@
+{
+  "name": "agente-linia-ventas",
+  "version": "1.0.0",
+  "description": "Micro-agente Linia & Pursena: Ventas, Cierres de Presupuestos y Prospección de Clubes",
+  "main": "agente.js",
+  "scripts": {
+    "start": "node agente.js"
+  },
+  "author": "Ale & Lucas - Electronicat",
+  "license": "ISC"
+}

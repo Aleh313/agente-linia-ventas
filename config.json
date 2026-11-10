@@ -1,0 +1,47 @@
+{
+  "agentId": "ag_linia_pursena",
+  "folderName": "06_linia_pursena_ventas",
+  "learnedKnowledge": [
+    "Dupla de Eris: seguimiento de presupuestos en espera de aprobación y venta de los 10 Tableros 24s."
+  ],
+  "customBotEntry": "agente.js",
+  "systemPromptFile": "PROMPT_ENTRENAMIENTO.md",
+  "role": "Ventas, Presupuestos & Cierre Comercial",
+  "name": "Linia & Pursena",
+  "lastUpdated": "29/10/2026, 03:05:13",
+  "watchPaths": [
+    "c:\\Users\\aleh3\\Desktop\\PROYECTO ELECTRONICAT\\agentes\\06_linia_pursena_ventas\\recursos_y_videos",
+    "c:\\Users\\aleh3\\Desktop\\PROYECTO ELECTRONICAT\\media_taller"
+  ],
+  "alwaysOn24x7": true,
+  "sector": "ventas",
+  "skills": [
+    {
+      "id": "affaan-m/ecc@autonomous-loops",
+      "name": "Bucle Autónomo de Seguimiento",
+      "desc": "Seguimiento recurrente a presupuestos enviados para no perder ningún cliente."
+    },
+    {
+      "id": "quick-budget-estimator",
+      "name": "Calculador Rápido de Presupuestos",
+      "desc": "Estimación instantánea según materiales, mano de obra y logística de campo."
+    },
+    {
+      "id": "sales-handoff-pipeline",
+      "name": "Traspaso Comercial a Operaciones",
+      "desc": "Al confirmarse un presupuesto, solicita seña a Silphy y agenda fecha con Norn."
+    }
+  ],
+  "peers": [
+    "ag_norn",
+    "ag_silphy",
+    "ag_eris",
+    "ag_rudy"
+  ],
+  "responsibilities": [
+    "Gestionar los presupuestos en espera (cálculo de potencial en pesos).",
+    "Aprobar y transferir cotizaciones confirmadas directamente a la agenda quincenal.",
+    "Coordinar con Silphy el cobro de anticipos del 50% antes de iniciar compras de materiales."
+  ],
+  "skillsFile": "SKILLS.md"
+}
